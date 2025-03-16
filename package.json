@@ -12,7 +12,10 @@
 	},
 	"dependencies": {
 		"@astrojs/cloudflare": "^12.2.4",
-		"astro": "^5.5.2"
+		"@tailwindcss/vite": "^4.0.14",
+		"astro": "^5.5.2",
+		"gsap": "^3.12.7",
+		"tailwindcss": "^4.0.14"
 	},
 	"devDependencies": {
 		"@cloudflare/workers-types": "^4.20250313.0",

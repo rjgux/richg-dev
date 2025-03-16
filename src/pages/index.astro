@@ -1,11 +1,33 @@
 ---
-import Welcome from '../components/Welcome.astro';
 import Layout from '../layouts/Layout.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import "../assets/global.css";
 ---
 
 <Layout>
-	<Welcome />
+	<main class="min-h-screen bg-black text-white font-body flex items-center py-[2vw] px-[4vw]">
+		<section class="flex flex-col gap-[2vw]">
+			<h1 class="sr-only">Richard George</h1>
+			<p class="text-[#dfdcff] text-[3vw] leading-tight">
+				Hi! 👋 My name is <span class="text-[#ff8709] font-bold">Richard George</span>. 
+				I am a full-stack developer from Bristol, UK. I specialise in building web applications using 
+				<span class="text-[#fffce1] font-mono">React</span>, <span class="text-[#fffce1] font-mono">Next.js</span>, and <span class="font-mono text-[#fffce1]">Tailwind CSS</span>. 
+				I am a web developer at the Craft CMS agency <a href="https://mutual.agency/" target="_blank" rel="noopener noreferrer" class="underline text-[#f100cb] hover:opacity-75 transition-opacity">Mutual</a>.
+			</p>
+			<p class="text-[3vw] leading-tight"><a href="mailto:richard.george@hey.com" class="underline text-[#f100cb] hover:opacity-75 transition-opacity">Contact</a></p>
+		</section>
+
+		<!-- <section class="container mx-auto px-4">
+			<ul>
+				<li>
+					<a href="https://github.com/rjgux" target="_blank" rel="noopener noreferrer">GitHub</a>
+				</li>
+				<li>
+					<a href="https://www.linkedin.com/in/rjgux" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+				</li>
+				<li>
+					<a href="" download>CV</a>
+				</li>
+			</ul>
+		</section> -->
+	</main>
 </Layout>
